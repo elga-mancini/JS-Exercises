@@ -4,10 +4,10 @@ function printName() {
     //abbiamo accesso al global e printName scope
     function inner() {
         //abbiamo accesso al global, inner e printName scope
-      console.log(helloName);
+      return helloName;
     }
     //mandiamo a stampa la funzione inner
-    inner();
+    return inner();
   }
 //mandiamo a stampa la funzione principale
-printName();
+console.log(printName());
