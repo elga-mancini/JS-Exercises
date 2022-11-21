@@ -19,5 +19,5 @@ function adultFilter(persons) {
   ];
   
   const adults = adultFilter(persons);
-  console.log(persons);
+//   console.log(persons);
   console.log(adults);
