@@ -5,4 +5,4 @@ function printAsyncName(callback, name) {
   setTimeout(() => console.log(name), 2000);
 }
 
-printAsyncName(sayHello, "Alessandro");
+printAsyncName(sayHello, "Elga");
