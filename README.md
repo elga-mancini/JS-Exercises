@@ -1,3 +1,5 @@
-# Exercise 74 - Callbacks
-Write a function called repeatHello, which will take as parameter a callback. The callback function will simply print "Hello". The repeatHello function will have to execute the callback function with an interval of 1 second. The callback function must be an arrow function, can you also explain why?
+# Exercise 75 - Callbacks
+Starting from the previous exercise, we want to add to our function repeatHello, a clearInterval after 5 seconds, could you do that?
+
+The callback function must be an arrow function, can you also explain why?
 

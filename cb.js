@@ -1,7 +1,8 @@
 let sayHello = () => console.log("Hello");
 
 function repeatHello(callback){
-setInterval(callback, 1000);
+let setTimeCall = setInterval(callback, 1000);
+setTimeout(() => clearInterval(setTimeCall), 5000);
 }
 
 repeatHello(sayHello);
